@@ -1,0 +1,1 @@
+for I in[I:=input]*int(I()):H,W=map(int,I().split());Q=[I().split()for c in'*'*H];print(len({(*Q[h][w:w+2]+Q[h+1][w:w+2],)for w in range(W-1)for h in range(H-1)}))
